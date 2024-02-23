@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css" integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Dashboard Design</title>
+</head>
+<body>
+    
+
+    <div class="container">
+      <!-- //////////  sidebar /////// -->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="img/final.png">
+                    <h2>Medofile</h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <i class="ri-dashboard-fill"></i>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-user-fill"></i>
+                    <h3>Users</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-file-paper-2-fill"></i>
+                    <h3>History</h3>
+                </a>
+                <a href="#" class="active">
+                    <i class="ri-line-chart-fill"></i>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-mail-fill"></i>
+                    <h3>Tickets</h3>
+                    <span class="message-count">18</span>
+                </a>
+                <a href="#">
+                    <i class="ri-file-list-3-fill"></i>
+                    <h3>Sale List</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-error-warning-fill"></i>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-settings-3-fill"></i>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-user-add-fill"></i>
+                    <h3>New Login</h3>
+                </a>
+                <a href="#">
+                    <i class="ri-logout-box-r-line"></i>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+
+
+        </aside>
+        <!-- ////////////////////////////////////////// -->
+
+        <!-- ////////// main content ///////// -->
+
+        <main>
+            <h1>Analytics</h1>
+
+            <div class="analyse">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Total Sales</h3>
+                            <h1>%65,024</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+81%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visits">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Site Visit</h3>
+                            <h1>24,981</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>-48%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="searches">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Searches</h3>
+                            <h1>14,147</h1>
+                        </div>
+                        <div class="progresss">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+21%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- /////////////////////////////////////// -->
+
+            <div class="new-users">
+                <h2>New Users</h2>
+                <div class="user-list">
+                    <div class="user">
+                        <img src="img/testimonial-perfil-1.png">
+                        <h2>Sara</h2>
+                        <p>3 Hours Ago</p>
+                    </div>
+                    <div class="user">
+                        <img src="img/testimonial-perfil-2.png">
+                        <h2>Amir</h2>
+                        <p>54 Min Ago</p>
+                    </div>
+                    <div class="user">
+                        <img src="img/testimonial-perfil-3.png">
+                        <h2>Mahsa</h2>
+                        <p>6 Hours Ago</p>
+                    </div>
+                    <div class="user">
+                        <img src="img/Plus-Symbol-Silhouette-PNG-Photos.png">
+                        <h2>More</h2>
+                        <p>New Users</p>
+                    </div>
+                </div>
+            </div>
+
+           <!-- //////////////////////////////////////////// -->
+
+           <div class="recent-orders">
+            <h2>Recent Orders</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Course Number</th>
+                        <th>Payment</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <a href="#">Show All</a>
+           </div>
+
+           <!-- //////////////////////////////////////// -->
+
+
+        </main>
+
+        <!-- /////////////////////////////////////////////// -->
+
+
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <i class="ri-menu-line"></i>
+                </button>
+                <div class="dark-mode">
+                    <i class="ri-sun-fill active"></i>
+                    <i class="ri-moon-fill"></i>
+                </div>
+
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey, <b>Alireza</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="img/testimonial-perfil-4.png" >
+                    </div>
+                </div>
+            </div>
+           <!-- //////////////////////////////// -->
+
+           <div class="user-profile">
+              <div class="logo">
+                <img src="img/final.png">
+                <h2>Medofile</h2>
+              </div>
+           </div>
+
+
+           <div class="reminder">
+             <div class="header">
+                <h2>Reminder</h2>
+                <i class="ri-notification-2-fill"></i>
+             </div>
+
+               <div class="notifaction">
+                <div class="icon">
+                    <i class="ri-volume-up-fill"></i>
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>Workshop</h3>
+                        <small class="text-muted">07:30 AM - 14:30 PM</small>
+                    </div>
+                    <i class="ri-more-2-fill"></i>
+                </div>
+               </div>
+
+               <div class="notifaction deactive">
+                <div class="icon">
+                    <i class="ri-pencil-fill"></i>
+                </div>
+                <div class="content">
+                    <div class="info">
+                        <h3>Workshop</h3>
+                        <small class="text-muted">07:30 AM - 14:30 PM</small>
+                    </div>
+                    <i class="ri-more-2-fill"></i>
+                </div>
+               </div>
+
+
+               <div class="notifaction add-reminder">
+                 <div>
+                    <i class="ri-add-fill"></i>
+                    <h3>Add Reminder</h3>
+                 </div>
+               </div>
+               
+
+           </div>
+
+        </div>
+
+
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
